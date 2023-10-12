@@ -4,3 +4,6 @@ spring:
     username: admin
     password: admin
     driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
